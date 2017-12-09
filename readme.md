@@ -11,9 +11,11 @@ Finalmente, utilicé *git reset --hard [hash_del_commit]* y movió HEAD al commi
 No causó ningún conflicto ya que hizo un merge fast-forward.
 
 * El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
-
+Si, se produjo un conflicto en el archivo git-nuestro.md, tenían diferente contenido en la rama styled y htmlify. Resolví el conflicto manteniendo
+el contenido que tenía la rama styled.
 
 * El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+
 
 * ¿Qué comando o comandos utilizaste en el paso 25?
 
