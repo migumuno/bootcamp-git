@@ -8,14 +8,14 @@ Utilicé primero *git reset [hash_del_commit]* para comprobar qué ocurría y mo
 Finalmente, utilicé *git reset --hard [hash_del_commit]* y movió HEAD al commit perdido y también recuperó los archivos dejando todo como estaba.
 
 * El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
-No causó ningún conflicto ya que hizo un merge fast-forward.
+No causó ningún conflicto ya que no había ninguna diferencia con la rama master.
 
 * El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 Si, se produjo un conflicto en el archivo git-nuestro.md, tenían diferente contenido en la rama styled y htmlify. Resolví el conflicto manteniendo
 el contenido que tenía la rama styled.
 
 * El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
-
+No causó ningún conflicto ya que hizo un merge fast-forward.
 
 * ¿Qué comando o comandos utilizaste en el paso 25?
 
