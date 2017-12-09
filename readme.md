@@ -1,11 +1,11 @@
 #Preguntas Ejercicio 1
 
 * ¿Qué comando utilizaste en el paso 11? ¿Por qué?
-Utilicé *git reset --hard HEAD~1* por que era necesario retroceder un commit (HEAD~1) y perder los cambios realizados en el working copy (--hard).
+Utilicé **git reset --hard HEAD~1** por que era necesario retroceder un commit (HEAD~1) y perder los cambios realizados en el working copy (--hard).
 
 * ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
-Utilicé primero *git reset [hash_del_commit]* para comprobar qué ocurría y movió HEAD al commit perdido pero el working copy no recuperó el archivo.
-Finalmente, utilicé *git reset --hard [hash_del_commit]* y movió HEAD al commit perdido y también recuperó los archivos dejando todo como estaba.
+Utilicé primero **git reset [hash_del_commit]** para comprobar qué ocurría y movió HEAD al commit perdido pero el working copy no recuperó el archivo.
+Finalmente, utilicé **git reset --hard [hash_del_commit]** y movió HEAD al commit perdido y también recuperó los archivos dejando todo como estaba.
 
 * El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
 No causó ningún conflicto ya que no había ninguna diferencia con la rama master.
@@ -18,6 +18,8 @@ el contenido que tenía la rama styled.
 No causó ningún conflicto ya que hizo un merge fast-forward.
 
 * ¿Qué comando o comandos utilizaste en el paso 25?
+Utilicé el comando **git graph** para mostrar el dibujo ya que ya tenía predefinido un alias para el comando 
+**git log --graph --pretty=oneline --decorate**.
 
 * El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 
