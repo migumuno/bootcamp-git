@@ -22,14 +22,20 @@ Utilicé el comando **git graph** para mostrar el dibujo ya que ya tenía predef
 **git log --graph --pretty=oneline --decorate**.
 
 * El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+Si, ya que estaban alineadas las ramas title y master, se podía hacer un movimiento de puntero simplemente.
 
 * ¿Qué comando o comandos utilizaste en el paso 27?
+Utilicé el comando **git reflog** para ver el historial y el identificador y el comando **git reset [hash_del_commit]** para deshacer el merge
+ya que había hecho un commit entre medias cambiando el archivo readme.md.
 
 * ¿Qué comando o comandos utilizaste en el paso 28?
+Utilicé el comando **git checkout -- git-nuestro.md** para descartar los cambios del working copy.
 
 * ¿Qué comando o comandos utilizaste en el paso 29?
+Utilicé el comando **git branch -D title** para eliminar la rama title.
 
 * ¿Qué comando o comandos utilizaste en el paso 30?
+Utilicé el comando **git reflog** para ver el historial y el identificador y el comando **git reset [hash_del_commit]** para deshacer el merge
 
 * ¿Qué comando o comandos usaste en el paso 32?
 
