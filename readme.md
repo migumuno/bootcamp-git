@@ -38,5 +38,9 @@ Utilicé el comando **git branch -D title** para eliminar la rama title.
 Utilicé el comando **git reflog** para ver el historial y el identificador y el comando **git reset [hash_del_commit]** para deshacer el merge
 
 * ¿Qué comando o comandos usaste en el paso 32?
+Utilicé el comando **git reflog** para ver el historial de commits y buscar el hash del commit inicial y después usé el comando
+**git checkout [hash_del_commit]** para desplazar el puntero hasta el.
 
 * ¿Qué comando o comandos usaste en el punto 33?
+Utilicé el comando **git reflog** para ver el historial de commits y buscar el hash del commit final y después usé el comando
+**git checkout [hash_del_commit]** para desplazar el puntero hasta el.
