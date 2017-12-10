@@ -45,3 +45,6 @@ Utilicé el comando **git reflog** para ver el historial de commits y buscar el 
 Utilicé el comando **git reflog** para ver el historial de commits y buscar el hash del commit final y después usé el comando
 **git checkout [hash_del_commit]** para desplazar el puntero hasta el. Después tuve que hacer un **git checkout master** para
 volver a la rama master.
+
+**En el último paso ponía Ir al tag htmlify y así lo hice pero para finalizar volví a la rama master para que el archivo readme.md con las
+respuestas a las preguntas quedase visible. Aunque esto quedó registrado en el reflog así que ya lo sabréis jeje.**
