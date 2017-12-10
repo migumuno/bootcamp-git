@@ -1,4 +1,4 @@
-#Preguntas Ejercicio 1
+# Preguntas Ejercicio 1
 
 * ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 Utilicé **git reset --hard HEAD~1** por que era necesario retroceder un commit (HEAD~1) y perder los cambios realizados en el working copy (--hard).
