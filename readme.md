@@ -43,4 +43,5 @@ Utilicé el comando **git reflog** para ver el historial de commits y buscar el 
 
 * ¿Qué comando o comandos usaste en el punto 33?
 Utilicé el comando **git reflog** para ver el historial de commits y buscar el hash del commit final y después usé el comando
-**git checkout [hash_del_commit]** para desplazar el puntero hasta el.
+**git checkout [hash_del_commit]** para desplazar el puntero hasta el. Después tuve que hacer un **git checkout master** para
+volver a la rama master.
